@@ -1,8 +1,9 @@
 
+ 
   html,
   body {
     position: relative;
-    height: 100%;
+
   }
 
   body {
@@ -96,6 +97,7 @@
     display: none;
 
   }
+  
 
   .caja-producto:hover {
     .cajabtn {
@@ -149,8 +151,50 @@ input#cantidad2 {
 }
 
 
+/*----------navegacion-----------*/
+
+.navegacion {
+  display: flex;
+  position: absolute!important;
+  top: 60%;
+  width: 100%;
+  z-index: 10000;
+}
+
+.ui-siguiente {
+  width: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ui-anterior {
+  width: 50%;
+  cursor: pointer;
+}
+
+.ui-siguiente img {
+  width: 9%;
+
+}
+
+.ui-anterior img {
+  width: 9%;
+  
+}
+
+.titulonavegacion {
+  display: flex;
+}
+
+.titulocatalogo {
+  width: 80%;
+}
+
+
 
 /*----------Catalogo caja de producto Responsive-----------*/
+
 
   @media only screen and (max-width: 768px) {
     .cajabtn{
@@ -194,8 +238,21 @@ input#cantidad2 {
       }
 
     .icon {
-        width: 40%!important;
+        width: 30px!important;
         height: auto;
       }
+
+      .ui-siguiente img {
+        width: 20%;
+      
+      }
+      
+      .ui-anterior img {
+        width: 20%;
+        
+      }
   }
+
+
+
 
