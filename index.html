@@ -15,7 +15,15 @@
 
 <body>
 
-    <div><h2>Nuestros productos</h2></div>
+
+    <div class="titulonavegacion">
+      <div class="titulocatalogo"><h2>Nuestros productos</h2></div>
+      
+    
+
+    
+    
+    </div>
   <!-- Swiper -->
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
@@ -104,13 +112,21 @@
       </div>
 
 
+
+
       
 
       </div>
 
+
     </div>
-    
+    <div class="navegacion">      
+      <div class="ui-anterior"><img src="img/flecha2-02-03.svg" alt=""></div>
+      <div class="ui-siguiente"><img src="img/flecha-02.svg" alt=""></div>
+    </div>
   </div>
+
+
 
 
 
@@ -139,6 +155,11 @@
         clickable: true,
       },
 
+      navigation: {
+      nextEl: '.ui-siguiente',
+      prevEl: '.ui-anterior',
+    },
+
       breakpoints:{
       0: {
         slidesPerView: 2,
@@ -151,6 +172,8 @@
         slidesPerView: 4,
         },
       }
+
+
 
 
     });
