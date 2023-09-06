@@ -1,5 +1,4 @@
 
- 
   html,
   body {
     position: relative;
@@ -18,7 +17,9 @@
   .swiper {
     width: 100%;
     height: auto;
+    display: flex;
   }
+
 
   .swiper-slide {
     text-align: center;
@@ -26,6 +27,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: unset;
+    padding: 20px 0px;
   }
 
   .swiper-slide img {
@@ -42,22 +45,24 @@
     border-radius: 20px;
     box-shadow: 0 0 20px #00000023;
     background-color: white;
+    height: 100%;
     
   }
+
 
   .titulo-producto {
     margin: 10px 10px;
     font-family: 'Nunito';
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .precio-producto {
-    margin: 10px 10px;
+    margin: 20px 10px;
     font-family: 'Nunito';
     font-weight: 400;
     font-size: 20px;
-    color: #e9b700;
+    color: #cf4043;
   }
 
   .descripcion-producto {
@@ -73,28 +78,54 @@
     font-size: 14px;
     font-weight: 700;
     font-family: 'Nunito';
-    background-color: #e9b700;
-    padding: 10px 20px;
+    background-color: #cf4043;
+    padding: 12px 20px;
     border: none;
-    border-radius: 50px;
+    border-radius: 10px;
     box-shadow: 0 0 20px #0000007f;
     cursor: pointer;
     margin: 0 5px;
+    color: white;
 
   }
+
+  .content-add {
+    margin-top: 30%;
+  }
+
+  .btndetalles {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Nunito';
+    background-color: #cf4043;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #0000007f;
+    cursor: pointer;
+    margin: 0 5px;
+    color: white;
+  }
+  .detalle {
+    width: 80%;
+  }
+
+
 
   .btn-carrito2 {
     font-size: 14px;
     font-weight: 700;
     font-family: 'Nunito';
-    background-color: #e9b700;
+    background-color: #cf4043;
     padding: 10px 20px;
     border: none;
-    border-radius: 50px;
+    border-radius: 10px;
     box-shadow: 0 0 20px #0000007f;
     cursor: pointer;
     margin-right: 10px;
     display: none;
+    color: white;
 
   }
   
@@ -108,6 +139,7 @@
 
   .cajabtn{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -131,7 +163,7 @@ padding: 20px;
     padding:10px 15px;
     border-radius:0 20px 20px 0;
     position: absolute;
-    top: 30px;
+    top: 40px;
     left: 0;
   }
 
@@ -174,12 +206,12 @@ input#cantidad2 {
 }
 
 .ui-siguiente img {
-  width: 9%;
+  width: 8%;
 
 }
 
 .ui-anterior img {
-  width: 9%;
+  width: 8%;
   
 }
 
@@ -252,7 +284,6 @@ input#cantidad2 {
         
       }
   }
-
 
 
 
