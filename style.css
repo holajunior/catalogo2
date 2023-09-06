@@ -141,7 +141,6 @@
 
   .cajabtn{
     display: block;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -150,6 +149,7 @@
     background-color: #eeeeee9e;
     opacity: 0;
     transition: 0.8s;
+    border-radius: 20px;
   }
 
   .destacada {
