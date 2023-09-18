@@ -238,7 +238,7 @@ input#cantidad2 {
   @media only screen and (max-width: 768px) {
 
         .caja-producto {
-      padding-bottom: 20px;
+      padding-bottom: 10px;
       
     }
     .cajabtn{
@@ -253,7 +253,8 @@ input#cantidad2 {
       .precio-producto {
         margin: 10px 10px;
         font-size: 17px;
-        color: #e9b700;
+        color: #cf4043;
+        position:relative;
       }
     
       .descripcion-producto {
