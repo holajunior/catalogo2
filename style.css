@@ -201,11 +201,11 @@ input#cantidad2 {
 }
 
 
+
 /*----------navegacion-----------*/
 
 .navegacion {
   display: flex;
-  position: absolute!important;
   top: 60%;
   width: 100%;
   z-index: 10;
@@ -215,12 +215,15 @@ input#cantidad2 {
   width: 50%;
   cursor: pointer;
   display: flex;
-  justify-content: flex-end;
+  margin-left: 20px;
 }
 
 .ui-anterior {
   width: 50%;
   cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
 }
 
 .ui-siguiente img {
@@ -240,7 +243,6 @@ input#cantidad2 {
 .titulocatalogo {
   width: 80%;
 }
-
 
 
 /*----------Catalogo caja de producto Responsive-----------*/
